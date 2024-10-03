@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="baddieTitleEnter.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ENTER FREEZE0000" x="682" y="10" width="229" height="23" frameX="0" frameY="0" frameWidth="662" frameHeight="30"/>
+	<SubTexture name="ENTER IDLE0000" x="10" y="10" width="662" height="30"/>
+	<SubTexture name="ENTER PRESSED0000" x="10" y="10" width="662" height="30"/>
+	<SubTexture name="ENTER PRESSED0001" x="682" y="10" width="229" height="23" frameX="-215" frameY="-2" frameWidth="662" frameHeight="30"/>
+</TextureAtlas>

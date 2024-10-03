@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="button_angelo.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="angelo idleBox0000" x="10" y="10" width="580" height="362"/>
+	<SubTexture name="angelo red0000" x="10" y="382" width="584" height="366"/>
+</TextureAtlas>

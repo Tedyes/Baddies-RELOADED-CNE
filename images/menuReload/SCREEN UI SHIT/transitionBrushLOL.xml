@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="transitionBrushLOL.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blank00000" x="10" y="10" width="1249" height="482"/>
+	<SubTexture name="brush0000" x="10" y="10" width="1249" height="482"/>
+	<SubTexture name="brush0001" x="1269" y="10" width="286" height="148" frameX="-9" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0002" x="1565" y="10" width="453" height="156" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0003" x="2028" y="10" width="502" height="177" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0004" x="2028" y="10" width="502" height="177" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0005" x="2540" y="10" width="557" height="262" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0006" x="2540" y="10" width="557" height="262" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0007" x="3107" y="10" width="953" height="397" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0008" x="3107" y="10" width="953" height="397" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0009" x="10" y="502" width="1048" height="480" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0010" x="1068" y="502" width="1135" height="480" frameX="-1" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0011" x="1068" y="502" width="1135" height="480" frameX="-1" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0012" x="2213" y="502" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0013" x="10" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0014" x="1268" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0015" x="1268" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0016" x="2526" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0017" x="2526" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0018" x="10" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0019" x="10" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0020" x="1269" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0021" x="1269" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0022" x="2528" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0023" x="2528" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush0024" x="10" y="1972" width="1249" height="482"/>
+	<SubTexture name="brush0025" x="10" y="1972" width="1249" height="482"/>
+	<SubTexture name="brush0026" x="10" y="1972" width="1249" height="482"/>
+	<SubTexture name="brush anim reverse0000" x="10" y="1972" width="1249" height="482"/>
+	<SubTexture name="brush anim reverse0001" x="2528" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0002" x="2528" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0003" x="1269" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0004" x="1269" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0005" x="10" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0006" x="10" y="1482" width="1249" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0007" x="2526" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0008" x="2526" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0009" x="1268" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0010" x="1268" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0011" x="10" y="992" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0012" x="2213" y="502" width="1248" height="480" frameX="0" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0013" x="1068" y="502" width="1135" height="480" frameX="-1" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0014" x="1068" y="502" width="1135" height="480" frameX="-1" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0015" x="10" y="502" width="1048" height="480" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0016" x="3107" y="10" width="953" height="397" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0017" x="3107" y="10" width="953" height="397" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0018" x="2540" y="10" width="557" height="262" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0019" x="2540" y="10" width="557" height="262" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0020" x="2028" y="10" width="502" height="177" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0021" x="2028" y="10" width="502" height="177" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0022" x="1565" y="10" width="453" height="156" frameX="-3" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0023" x="1269" y="10" width="286" height="148" frameX="-9" frameY="0" frameWidth="1249" frameHeight="482"/>
+	<SubTexture name="brush anim reverse0024" x="10" y="10" width="1249" height="482"/>
+	<SubTexture name="brush finish0000" x="10" y="1972" width="1249" height="482"/>
+</TextureAtlas>

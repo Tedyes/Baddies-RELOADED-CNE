@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_quit.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="quit basic0000" x="10" y="10" width="109" height="47"/>
+	<SubTexture name="quit white0000" x="129" y="10" width="167" height="84"/>
+	<SubTexture name="quit white0001" x="306" y="10" width="167" height="84"/>
+	<SubTexture name="quit white0002" x="10" y="104" width="167" height="84"/>
+	<SubTexture name="quit white0003" x="187" y="104" width="167" height="84"/>
+</TextureAtlas>

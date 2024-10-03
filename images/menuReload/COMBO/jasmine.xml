@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jasmine.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="jasmine0000" x="10" y="10" width="674" height="568" frameX="0" frameY="-7" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0001" x="10" y="10" width="674" height="568" frameX="0" frameY="-7" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0002" x="694" y="10" width="672" height="567" frameX="-2" frameY="-7" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0003" x="694" y="10" width="672" height="567" frameX="-2" frameY="-7" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0004" x="10" y="588" width="670" height="566" frameX="-4" frameY="-4" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0005" x="10" y="588" width="670" height="566" frameX="-4" frameY="-4" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0006" x="690" y="588" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0007" x="690" y="588" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0008" x="10" y="1167" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0009" x="10" y="1167" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0010" x="10" y="1167" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0011" x="10" y="1167" width="670" height="569" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0012" x="690" y="1167" width="670" height="571" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+	<SubTexture name="jasmine0013" x="690" y="1167" width="670" height="571" frameX="-4" frameY="0" frameWidth="674" frameHeight="575"/>
+</TextureAtlas>

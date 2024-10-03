@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_merch.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="merch basic0000" x="10" y="10" width="158" height="38"/>
+	<SubTexture name="merch white0000" x="178" y="10" width="206" height="61" frameX="-1" frameY="-1" frameWidth="207" frameHeight="62"/>
+	<SubTexture name="merch white0001" x="10" y="81" width="206" height="61" frameX="-1" frameY="0" frameWidth="207" frameHeight="62"/>
+	<SubTexture name="merch white0002" x="226" y="81" width="207" height="61" frameX="0" frameY="-1" frameWidth="207" frameHeight="62"/>
+</TextureAtlas>
