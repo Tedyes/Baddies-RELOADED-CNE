@@ -10,6 +10,14 @@ public var intendedScore:Int = 0;
 public var lerpScore:Int = 0;
 
 function create() {
+	cardBG = new FlxCamera();
+    cardBG.bgColor = 0;
+    FlxG.cameras.add(cardBG,false);
+
+	upCard = new FlxCamera();
+    upCard.bgColor = 0;
+    FlxG.cameras.add(upCard,false);
+
 	bg = new FlxBackdrop(Paths.image("menuReload/ART GALLERY/artgallery"));
 	bg.updateHitbox();
 	bg.velocity.set(20,20);
@@ -23,6 +31,29 @@ function create() {
 	name.updateHitbox();
 	name.angle = -5;
 	add(name);
+
+	chapText = new FlxText(name.x + 25, name.y + 100, 550, "ACT I: The Beginning...", 32);
+	chapText.setFormat(Paths.font("veteran typewriter.ttf"), 32, FlxColor.WHITE);
+	add(chapText);
+
+	jasmine = new FlxSprite(FlxG.width-650, 30);
+	jasmine.frames = Paths.getFrames('menuReload/COMBO/jasmine-fixed');
+	jasmine.animation.addByPrefix('idle', "jasmine", 24,true);
+	jasmine.animation.addByPrefix('yay', "YIPPIE", 24,false);
+	jasmine.animation.addByPrefix('fall', "intro", 24,false);
+	jasmine.animation.play('fall');
+	jasmine.animation.finishCallback = (f)->
+	{
+		switch(f){
+			case "fall":
+				jasmine.setPosition(FlxG.width-650, 250);
+				jasmine.animation.play('idle');
+		}
+	}
+	jasmine.scale.set(0.75,0.75);
+	jasmine.updateHitbox();
+	jasmine.cameras = [upCard];
+	add(jasmine);
 
 	tear = new FlxSprite(0,0).loadGraphic(Paths.image("menuReload/FREEPLAY/tear"));
 	tear.x = FlxG.width - tear.width;
@@ -45,6 +76,7 @@ function create() {
 	for (whatgsdtg in [esc,r,space,enter]){
 		whatgsdtg.y = FlxG.height - whatgsdtg.height - 10;
 		whatgsdtg.updateHitbox();
+		whatgsdtg.cameras = [upCard];
 		add(whatgsdtg);
 	}
 
@@ -52,15 +84,12 @@ function create() {
 		whats.y = FlxG.height - esc.height;
 		whats.setFormat(Paths.font('GothicJoker.ttf'), 30, 0xFFFFFF);
 		whats.updateHitbox();
+		whats.cameras = [upCard];
 		add(whats);
 	}
 
 	camFollow = new FlxObject(0, 0, 1, 1);
 	add(camFollow);
-
-	cardBG = new FlxCamera();
-    cardBG.bgColor = 0;
-    FlxG.cameras.add(cardBG,false);
 	cardBG.follow(camFollow, null, 0.12);
 
 	cardGroup = new FlxTypedGroup();
@@ -89,10 +118,6 @@ function create() {
 			}
 			spr.updateHitbox();
 		});
-	
-	upCard = new FlxCamera();
-    upCard.bgColor = 0;
-    FlxG.cameras.add(upCard,false);
 
 	leftarrow = new FlxSprite(50, FlxG.height/2);
 	leftarrow.angle = -90;
@@ -120,6 +145,10 @@ function create() {
 	scoreText.setFormat(Paths.font("GothicJoker.ttf"), 64, FlxColor.BLACK, "right");
 	add(scoreText);
 
+	diffText = new FlxText(FlxG.width * 0.7, 100, 550, "< only hard rn im lazy to add others my bad >", 32);
+	diffText.setFormat(Paths.font("GothicJoker.ttf"), 32, 0xfff46ce8, "right");
+	add(diffText);
+
 	if (FlxG.sound.music == null || !FlxG.sound.music.playing){
 		FlxG.sound.playMusic(Paths.music('reloadedTheme'), 0, true);
 		FlxG.sound.music.persist = true;
@@ -128,7 +157,12 @@ function create() {
 }
 
 var selectedSomethin:Bool = false;
-function update(elasped){
+function update(elapsed){
+	if (FlxG.sound.music != null && FlxG.sound.music.volume < 0.7)
+	{
+		FlxG.sound.music.volume += 0.5 * elapsed;
+	}
+
 	lerpScore = Math.floor(lerp(lerpScore, intendedScore, 0.4));
 
 	if (Math.abs(lerpScore - intendedScore) <= 10){
@@ -155,24 +189,42 @@ function update(elasped){
 		});
 	}
 
-	if (controls.ACCEPT)
+	if (FlxG.keys.justPressed.ENTER)
 	{
 		selectItem();
+	}
+
+	if (FlxG.keys.justPressed.R){
+		resettext.text = "no";
+	}
+
+	if (FlxG.keys.justPressed.SPACE) {
+		gomusic();
 	}
 	}
 }
 
+function gomusic() {
+	var songJSON:Array = Json.parse(Assets.getText(Paths.json('../data/FPSongs')));
+	FlxG.sound.playMusic(Paths.inst(songJSON.songs[FPcurSelected].name),0);
+}
+
 function selectItem() {
+	jasmine.setPosition(FlxG.width-660, 115);
+	jasmine.animation.play('yay');
 	selectedSomethin = true;
 	var songJSON:Array = Json.parse(Assets.getText(Paths.json('../data/FPSongs')));
 	FlxG.sound.play(Paths.sound('confirm'));
 
 	PlayState.loadSong(songJSON.songs[FPcurSelected].name, "hard", false, false);
-	FlxG.switchState(new PlayState());
+	new FlxTimer().start(1.25, function(tmr:FlxTimer)
+		{
+			FlxG.switchState(new PlayState());
+		});
 }
 
 function changeItem(huh:Int = 0){
-	FlxG.sound.play(Paths.sound('arrows'));
+	FlxG.sound.play(Paths.sound('cardswoosh'));
 	var songJSON:Array = Json.parse(Assets.getText(Paths.json('../data/FPSongs')));
 
 	FPcurSelected += huh;
