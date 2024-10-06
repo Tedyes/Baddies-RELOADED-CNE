@@ -13,6 +13,7 @@ import lime.graphics.Image;
 static var redirectStates:Map<FlxState, String> = [
     TitleState => "baddies/titleS",
     MainMenuState => "baddies/mmenuS",
+    FreeplayState => "baddies/freeplayS",
 ];
 
 function new() {

@@ -1,0 +1,28 @@
+{
+	"songs": [
+		{
+			"name": "rehearsal",
+			"card": "rehearsal"
+		},
+		{
+			"name": "encounter",
+			"card": "stephanie"
+		},
+		{
+			"name": "insane",
+			"card": "stephanie"
+		},
+		{
+			"name": "uhoh",
+			"card": "stephanie"
+		},
+		{
+			"name": "drift",
+			"card": "drift"
+		},
+		{
+			"name": "flow",
+			"card": "freeflow"
+		}
+	]
+}
