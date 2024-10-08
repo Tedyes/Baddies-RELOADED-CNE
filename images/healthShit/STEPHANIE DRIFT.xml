@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="STEPHANIE DRIFT.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stephDriftIcon0000" x="10" y="10" width="138" height="99" frameX="0" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0000" x="10" y="10" width="138" height="99" frameX="-6" frameY="-5" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0001" x="10" y="10" width="138" height="99" frameX="-6" frameY="-5" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0002" x="158" y="10" width="143" height="108" frameX="-4" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0003" x="158" y="10" width="143" height="108" frameX="-4" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0004" x="311" y="10" width="142" height="109" frameX="-4" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0005" x="311" y="10" width="142" height="109" frameX="-4" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0006" x="311" y="10" width="142" height="109" frameX="-4" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0007" x="10" y="129" width="135" height="102" frameX="-10" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0008" x="10" y="129" width="135" height="102" frameX="-10" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0009" x="155" y="129" width="152" height="99" frameX="0" frameY="-3" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0010" x="155" y="129" width="152" height="99" frameX="0" frameY="-3" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0011" x="317" y="129" width="147" height="93" frameX="-3" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0012" x="317" y="129" width="147" height="93" frameX="-3" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0013" x="10" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0014" x="10" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0015" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0016" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0017" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0018" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0019" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0020" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0021" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0022" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0023" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0024" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0025" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0026" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0027" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0028" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftLoseIntro0029" x="165" y="241" width="145" height="92" frameX="-4" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0000" x="165" y="241" width="145" height="92" frameX="-2" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0001" x="165" y="241" width="145" height="92" frameX="-2" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0002" x="10" y="241" width="145" height="92" frameX="-2" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0003" x="10" y="241" width="145" height="92" frameX="-2" frameY="-4" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0004" x="320" y="241" width="140" height="100" frameX="-5" frameY="-1" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0005" x="320" y="241" width="140" height="100" frameX="-5" frameY="-1" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0006" x="10" y="351" width="147" height="100" frameX="0" frameY="-3" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0007" x="10" y="351" width="147" height="100" frameX="0" frameY="-3" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0008" x="10" y="129" width="135" height="102" frameX="-8" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0009" x="10" y="129" width="135" height="102" frameX="-8" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0010" x="311" y="10" width="142" height="109" frameX="-2" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0011" x="311" y="10" width="142" height="109" frameX="-2" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0012" x="311" y="10" width="142" height="109" frameX="-2" frameY="0" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0013" x="158" y="10" width="143" height="108" frameX="-2" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0014" x="158" y="10" width="143" height="108" frameX="-2" frameY="-1" frameWidth="152" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0015" x="167" y="351" width="138" height="98" frameX="-4" frameY="-6" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0016" x="167" y="351" width="138" height="98" frameX="-4" frameY="-6" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0017" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0018" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0019" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0020" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0021" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0022" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0023" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0024" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0025" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0026" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0027" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0028" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+	<SubTexture name="stephDriftWinIntro0029" x="315" y="351" width="138" height="99" frameX="-4" frameY="-5" frameWidth="147" frameHeight="109"/>
+</TextureAtlas>
